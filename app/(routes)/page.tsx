@@ -11,7 +11,7 @@ const Home = async () => {
     "d5892b95-acf9-4673-90d3-fe4fd0f80567"
   );
   const products = await getProducts({
-    isFeatured: "true",
+    isFeatured: true,
   });
   return (
     <Container>
